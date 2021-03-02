@@ -1,0 +1,227 @@
+/* TUDO DA HOME */ 
+
+body{
+        background-color: GhostWhite;
+        cursor: default;
+    }
+    
+
+h1 {
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-size: 80px;
+        text-align: center;
+        line-height: 1.8;
+        color: #363636;
+        font-weight: bold;
+        margin-left: 100px;
+        margin-right: 80px;
+        /**margin: 50px 100px 50px 80px;*/
+        display: block;
+    }
+
+    h2 {
+        font-family: "Lucida Console";
+        font-style: oblique;
+        font-size: 30px;
+        text-align: center;
+        color: #363636;
+        background-color: #fff159;
+        /**margin: 50px 100px 50px 80px;*/
+        display: block;
+    }
+
+h3 { 
+    
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        line-height: 1.8;
+        color: #363636;
+        background-color: #fff159;
+        /**margin: 50px 100px 50px 80px;*/
+        display: block;
+   
+}
+
+p {
+        font-family: "Arial";
+        font-style: italic;
+        font-size: 25px;
+        text-align: center;
+        color: #363636 ;
+        margin-left: 100px;
+        margin-right: 80px;
+        /**margin: 50px 100px 50px 80px;*/
+        display: block;
+    }
+
+
+}
+
+.coluna{
+        display: inline-block;
+        width: 25%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #3483fa;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+ }
+
+
+
+.img {   
+        border-width: 2px;
+        border-style: solid;
+        border-color: #3483fa;
+        text-align: center;
+    }
+
+img{
+        border-style: solid;
+        border-width: 1px;
+    }
+
+
+#menu ul {
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        padding-right: 30px;
+        padding-left: 0px;
+        
+        margin-top: 60px;
+        margin-left: 80px;
+        margin-right: 25px;
+        background-color: #fff159;
+        list-style: none;
+    }
+
+#menu ul li {
+        display:inline;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+#menu ul li a {
+        padding-right: 25px;
+        padding-left: 5px;
+        margin-left: 80px;
+        display: inline-block;
+        text-decoration: none;
+        color: #363636;
+        font-size:25px;
+        
+    }
+
+a:link, a:visited {
+        background-color: white;
+        font-family: "Times New Roman", Times, serif;
+        color: #363636;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;  
+    }
+
+a:hover, a:active {
+        background-color: white;
+    }
+
+/*TUDO DA PÁGIINA "DESTINO" E FROTA*/
+
+table tr {
+        color:#363636;
+        border-spacing: 10px;
+        background-color: yellow;
+    }
+
+table tr th {
+        color: black;
+        background-color: yellow;
+        border-spacing: 10px;
+    }
+
+a {
+        font-size: 20px;
+        
+        
+    }
+
+/* TUDO SOBRE A PÁGINA DE FORMULÁRIOS E ABERTURAS DE CHAMADAS */
+
+form fieldset {
+        font-size: 40px;
+        color: #363636;
+        background-color: #f8f8ff;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+.para    
+      {
+        text-align: left;
+        font-family: "Arial";
+        font-style: italic;
+        font-size: 30px;
+        color: #363636;
+        margin-top: 8px;
+        }
+
+form fieldset label {
+        font-size: 25px;
+        background-color: #f8f8ff;
+    }
+
+form button {
+        background-color: yellow;
+        color: black;
+    
+    }
+
+.hyper { 
+        font-size: 60px;
+        background-color: #fff159;
+        margin-bottom: 40px;
+        margin-left: 100px;
+        margin-right: 80px;
+        text-align: center;
+        font-family: "Times New Roman";
+        font-style: italic;
+    }
+
+input[type=submit] { 
+        background-color: #3483fa; 
+        border: 15px solid transparent;
+        cursor: pointer;
+        margin-left: 100px;
+        color: white;
+        margin-top: 8px;
+    }
+
+button[type=button] { 
+        background-color: #3483fa; 
+        border: 15px solid transparent;
+        cursor: pointer;
+        color: white;
+        margin-top: 8px;
+  
+    }
+
+input[type=radio] {
+        cursor: pointer;
+    }
+
+input[type=reset] { 
+        background-color: #3483fa; 
+        border: 15px solid transparent;
+        cursor: pointer;
+        color: white;
+        margin-top: 8px;
+    }
+

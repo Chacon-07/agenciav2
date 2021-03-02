@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      
+    <link rel="stylesheet" href="style.css">
+      
+    <title>Contratação de Funcionários</title>
+      
+  </head>
+  <body>
+       <div class="hyper">
+           <div>Contratação de Funcionários</div>
+      </div>
+      
+      <form action="dados.html" method="get">
+        <fieldset id="Dados_Funcionário"><legend>Dados Pessoais</legend>
+          <label for="cNome">Nome:</label>
+          <input type="text" name="tNome" id="cNome" size="40" maxlength="99" placeholder="Nome Completo"/><br><br>
+          <label for="cMail">E-mail:</label>
+          <input type="email" name="tMail" id="cMail" size="40" maxlength="99"/><br><br>
+          <label for="cTel">Telefone:</label>
+          <input type="tel" name="tTel" id="cTel" placeholder="(DDD)9XXXX-XXXX" pattern="([0-9]){2}[0-9]{5}[0-9]{4}"/><br><br>
+        </fieldset>
+
+        <fieldset id="Endereço_Funcionário"><legend>Endereço</legend>
+          <label for="cEst">Estado:</label>
+          <select name="tEst" id="cEst">
+            <option value="AL">Alagoas </option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="MA">Maranhão</option>
+            <option value="PB">Paraíba</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="SE">Sergipe</option>
+          </select>
+
+
+          <label for="cCidade">Cidade:</label>
+          <input type="text" name="tCidade" id="cCidade"/><br><br>
+          <label for="cEndenreco"> Endereço:</label> 
+          <input type="text" name="tEndereço" id="cEndereco"/><br><br>   
+          <label for="cBairro">Bairro:</label>
+          <input type="text" name="tBairro" id="cBairro"/><br><br>
+          <label for="cNum">Número:</label>
+          <input type="number" name="tNum" id="cNum" min="0" max="999"/><br><br>
+          <label for="cLog">Logradouro</label>
+          <input type="text" name="Log" id="cLog" size="60" maxlength="99"/><br><br>
+        </fieldset>
+
+        <fieldset id="Cargo_Desejado"><legend>Cargo Desejado</legend>
+          <div class = "para">
+              <div>Escolha o Cargo:</div>
+          </div>
+            <br>
+          <input type="radio" name="tCargo" id="cMotorista"/><label for="cMotorista">Motorista</label><br>
+          <input type="radio" name="tCargo" id="cGuiche"/><label for="cGuiche">Vendedor(a) de Passagem</label><br>
+          <input type="radio" name="tCargo" id="cSupervisor"/><label for="cSupervisor">Supervisor(a)</label><br>
+          <input type="radio" name="tCargo" id="cAuxiliar"/><label for="cAuxiliar">Auxiliar Administrativo</label><br>
+          <input type="radio" name="tCargo" id="cGerente"/><label for="cGerente">Gerente</label><br>
+        </fieldset>
+        <fieldset id="Campo_Anexo"><legend>Anexar Currículos</legend>
+          <input type="file" name="tAnexo" id="cAnexo"/>
+        </fieldset>
+
+        <input type="submit" id="btn-Enviar" value="Enviar Dados"/>
+        <button type="button" id="btn-voltar" onclick="location.href='home.html'"> Voltar </button>
+        <input type="reset" id="btn-apagar" value="Apagar Dados"/>
+
+
+
+      </form>
+
+  </body>
+</html>
